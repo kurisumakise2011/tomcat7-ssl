@@ -1,0 +1,104 @@
+127.0.0.1 - - [06/Feb/2020:02:07:11 +0200] "PUT /manager/text/deploy?path=%2Fapp&update=true HTTP/1.1" 401 2499
+127.0.0.1 - admin [06/Feb/2020:02:09:27 +0200] "PUT /manager/text/deploy?path=%2Fapp&update=true HTTP/1.1" 200 60
+::1 - - [06/Feb/2020:02:09:43 +0200] "GET /app HTTP/1.1" 302 -
+::1 - - [06/Feb/2020:02:09:43 +0200] "GET /app/ HTTP/1.1" 404 709
+::1 - - [06/Feb/2020:02:09:43 +0200] "GET /favicon.ico HTTP/1.1" 200 21630
+::1 - - [06/Feb/2020:02:09:46 +0200] "GET /app/ HTTP/1.1" 404 709
+127.0.0.1 - admin [06/Feb/2020:02:10:30 +0200] "PUT /manager/text/deploy?path=%2Fapp&update=true HTTP/1.1" 200 60
+::1 - - [06/Feb/2020:02:10:33 +0200] "GET /app/ HTTP/1.1" 404 709
+::1 - - [06/Feb/2020:02:10:34 +0200] "GET /app/ HTTP/1.1" 404 709
+127.0.0.1 - admin [06/Feb/2020:02:11:11 +0200] "PUT /manager/text/deploy?path=%2Fapp&update=true HTTP/1.1" 200 60
+::1 - - [06/Feb/2020:02:11:13 +0200] "GET /app/ HTTP/1.1" 404 709
+::1 - - [06/Feb/2020:02:11:14 +0200] "GET /app/ HTTP/1.1" 404 709
+::1 - - [06/Feb/2020:02:11:17 +0200] "GET / HTTP/1.1" 200 11215
+::1 - - [06/Feb/2020:02:11:17 +0200] "GET /tomcat.css HTTP/1.1" 200 5581
+::1 - - [06/Feb/2020:02:11:17 +0200] "GET /tomcat.png HTTP/1.1" 200 5103
+::1 - - [06/Feb/2020:02:11:17 +0200] "GET /bg-nav.png HTTP/1.1" 200 1401
+::1 - - [06/Feb/2020:02:11:17 +0200] "GET /asf-logo-wide.svg HTTP/1.1" 200 27235
+::1 - - [06/Feb/2020:02:11:17 +0200] "GET /bg-upper.png HTTP/1.1" 200 3103
+::1 - - [06/Feb/2020:02:11:17 +0200] "GET /bg-button.png HTTP/1.1" 200 713
+::1 - - [06/Feb/2020:02:11:17 +0200] "GET /bg-middle.png HTTP/1.1" 200 1918
+127.0.0.1 - admin [06/Feb/2020:02:11:33 +0200] "PUT /manager/text/deploy?path=%2Fapp&update=true HTTP/1.1" 200 60
+::1 - - [06/Feb/2020:02:11:36 +0200] "GET /app HTTP/1.1" 302 -
+::1 - - [06/Feb/2020:02:11:36 +0200] "GET /app/ HTTP/1.1" 404 709
+127.0.0.1 - admin [06/Feb/2020:02:11:44 +0200] "PUT /manager/text/deploy?path=%2Fapp&update=true HTTP/1.1" 200 60
+::1 - - [06/Feb/2020:02:11:46 +0200] "GET /app/ HTTP/1.1" 404 709
+::1 - - [06/Feb/2020:02:11:47 +0200] "GET /app/ HTTP/1.1" 404 709
+127.0.0.1 - admin [06/Feb/2020:02:12:42 +0200] "PUT /manager/text/deploy?path=%2Fapp&update=true HTTP/1.1" 200 60
+::1 - - [06/Feb/2020:02:12:46 +0200] "GET / HTTP/1.1" 200 11215
+::1 - - [06/Feb/2020:02:12:46 +0200] "GET /tomcat.css HTTP/1.1" 200 5581
+::1 - - [06/Feb/2020:02:12:46 +0200] "GET /tomcat.png HTTP/1.1" 200 5103
+::1 - - [06/Feb/2020:02:12:47 +0200] "GET /bg-nav.png HTTP/1.1" 200 1401
+::1 - - [06/Feb/2020:02:12:47 +0200] "GET /asf-logo-wide.svg HTTP/1.1" 200 27235
+::1 - - [06/Feb/2020:02:12:47 +0200] "GET /bg-button.png HTTP/1.1" 200 713
+::1 - - [06/Feb/2020:02:12:47 +0200] "GET /bg-upper.png HTTP/1.1" 200 3103
+::1 - - [06/Feb/2020:02:12:47 +0200] "GET /bg-middle.png HTTP/1.1" 200 1918
+::1 - - [06/Feb/2020:02:12:50 +0200] "-" 400 -
+::1 - - [06/Feb/2020:02:12:50 +0200] "-" 400 -
+::1 - - [06/Feb/2020:02:12:51 +0200] "-" 400 -
+::1 - - [06/Feb/2020:02:12:51 +0200] "-" 400 -
+::1 - - [06/Feb/2020:02:12:51 +0200] "-" 400 -
+::1 - - [06/Feb/2020:02:12:54 +0200] "GET / HTTP/1.1" 200 11215
+::1 - - [06/Feb/2020:02:12:54 +0200] "GET /tomcat.css HTTP/1.1" 200 5581
+::1 - - [06/Feb/2020:02:12:54 +0200] "GET /tomcat.png HTTP/1.1" 200 5103
+::1 - - [06/Feb/2020:02:12:54 +0200] "GET /bg-nav.png HTTP/1.1" 200 1401
+::1 - - [06/Feb/2020:02:12:54 +0200] "GET /asf-logo-wide.svg HTTP/1.1" 200 27235
+::1 - - [06/Feb/2020:02:12:54 +0200] "GET /bg-upper.png HTTP/1.1" 200 3103
+::1 - - [06/Feb/2020:02:12:54 +0200] "GET /bg-button.png HTTP/1.1" 200 713
+::1 - - [06/Feb/2020:02:12:54 +0200] "GET /bg-middle.png HTTP/1.1" 200 1918
+::1 - - [06/Feb/2020:02:12:54 +0200] "GET /favicon.ico HTTP/1.1" 200 21630
+::1 - - [06/Feb/2020:02:12:57 +0200] "GET /app HTTP/1.1" 302 -
+::1 - - [06/Feb/2020:02:12:57 +0200] "GET /app/ HTTP/1.1" 404 709
+::1 - - [06/Feb/2020:02:14:43 +0200] "-" 400 -
+::1 - - [06/Feb/2020:02:14:43 +0200] "-" 400 -
+::1 - - [06/Feb/2020:02:14:43 +0200] "-" 400 -
+::1 - - [06/Feb/2020:02:14:45 +0200] "-" 400 -
+::1 - - [06/Feb/2020:02:14:45 +0200] "-" 400 -
+127.0.0.1 - admin [06/Feb/2020:02:15:15 +0200] "PUT /manager/text/deploy?path=%2Fapp&update=true HTTP/1.1" 200 60
+::1 - - [06/Feb/2020:02:15:29 +0200] "GET /app HTTP/1.1" 302 -
+::1 - - [06/Feb/2020:02:15:29 +0200] "GET /app/ HTTP/1.1" 404 709
+::1 - - [06/Feb/2020:02:15:33 +0200] "-" 400 -
+::1 - - [06/Feb/2020:02:15:33 +0200] "-" 400 -
+::1 - - [06/Feb/2020:02:15:40 +0200] "GET /app/ HTTP/1.1" 404 709
+::1 - - [06/Feb/2020:02:15:42 +0200] "GET /app/ HTTP/1.1" 404 709
+127.0.0.1 - admin [06/Feb/2020:02:20:44 +0200] "PUT /manager/text/deploy?path=%2Fapp&update=true HTTP/1.1" 200 60
+::1 - - [06/Feb/2020:02:20:50 +0200] "GET /app/ HTTP/1.1" 404 709
+::1 - - [06/Feb/2020:02:20:51 +0200] "GET /app/ HTTP/1.1" 404 709
+::1 - - [06/Feb/2020:02:20:58 +0200] "GET /app/ HTTP/1.1" 404 709
+::1 - - [06/Feb/2020:02:21:00 +0200] "GET /app HTTP/1.1" 302 -
+::1 - - [06/Feb/2020:02:21:00 +0200] "GET /app/ HTTP/1.1" 404 709
+127.0.0.1 - admin [06/Feb/2020:02:21:11 +0200] "PUT /manager/text/deploy?path=%2Fapp&update=true HTTP/1.1" 200 60
+::1 - - [06/Feb/2020:02:21:13 +0200] "GET /app/ HTTP/1.1" 404 709
+::1 - - [06/Feb/2020:02:21:14 +0200] "GET /app/ HTTP/1.1" 404 709
+::1 - - [06/Feb/2020:02:21:17 +0200] "GET /app/ HTTP/1.1" 404 709
+::1 - - [06/Feb/2020:02:23:10 +0200] "GET /app HTTP/1.1" 302 -
+::1 - - [06/Feb/2020:02:23:10 +0200] "GET /app/ HTTP/1.1" 404 709
+::1 - - [06/Feb/2020:02:23:10 +0200] "GET /app HTTP/1.1" 302 -
+::1 - - [06/Feb/2020:02:23:10 +0200] "GET /app/ HTTP/1.1" 404 709
+127.0.0.1 - admin [06/Feb/2020:02:23:40 +0200] "PUT /manager/text/deploy?path=%2Fapp&update=true HTTP/1.1" 200 60
+::1 - - [06/Feb/2020:02:23:42 +0200] "GET /app/ HTTP/1.1" 404 709
+::1 - - [06/Feb/2020:02:23:43 +0200] "GET /app/ HTTP/1.1" 404 709
+127.0.0.1 - admin [06/Feb/2020:02:25:35 +0200] "PUT /manager/text/deploy?path=%2Fapp&update=true HTTP/1.1" 200 60
+::1 - - [06/Feb/2020:02:25:39 +0200] "GET /app HTTP/1.1" 302 -
+::1 - - [06/Feb/2020:02:25:39 +0200] "GET /app/ HTTP/1.1" 404 709
+::1 - - [06/Feb/2020:02:25:49 +0200] "-" 400 -
+::1 - - [06/Feb/2020:02:25:49 +0200] "-" 400 -
+::1 - - [06/Feb/2020:02:25:54 +0200] "GET /app/ HTTP/1.1" 404 709
+::1 - - [06/Feb/2020:02:26:42 +0200] "GET /app/ HTTP/1.1" 404 709
+127.0.0.1 - admin [06/Feb/2020:02:26:52 +0200] "PUT /manager/text/deploy?path=%2Fapp&update=true HTTP/1.1" 200 60
+::1 - - [06/Feb/2020:02:27:00 +0200] "GET /app/ HTTP/1.1" 404 709
+::1 - - [06/Feb/2020:02:27:08 +0200] "GET /app/ HTTP/1.1" 404 709
+127.0.0.1 - admin [06/Feb/2020:02:29:41 +0200] "PUT /manager/text/deploy?path=%2Fapp&update=true HTTP/1.1" 200 60
+127.0.0.1 - admin [06/Feb/2020:02:29:51 +0200] "PUT /manager/text/deploy?path=%2Fapp&update=true HTTP/1.1" 200 60
+127.0.0.1 - admin [06/Feb/2020:02:30:02 +0200] "PUT /manager/text/deploy?path=%2Fapp&update=true HTTP/1.1" 200 60
+127.0.0.1 - admin [06/Feb/2020:02:30:41 +0200] "PUT /manager/text/deploy?path=%2Fapp&update=true HTTP/1.1" 200 60
+::1 - - [06/Feb/2020:02:30:49 +0200] "GET /app/ HTTP/1.1" 404 709
+::1 - - [06/Feb/2020:02:30:51 +0200] "GET /app/ HTTP/1.1" 404 709
+::1 - - [06/Feb/2020:02:31:02 +0200] "GET /app/ HTTP/1.1" 404 709
+127.0.0.1 - admin [06/Feb/2020:02:31:32 +0200] "PUT /manager/text/deploy?path=%2Fapp&update=true HTTP/1.1" 200 60
+::1 - - [06/Feb/2020:02:31:41 +0200] "GET /app/ HTTP/1.1" 200 21
+::1 - - [06/Feb/2020:02:33:56 +0200] "GET /app/ HTTP/1.1" 200 21
+127.0.0.1 - admin [06/Feb/2020:02:40:40 +0200] "PUT /manager/text/deploy?path=%2Fapp&update=true HTTP/1.1" 200 60
+::1 - - [06/Feb/2020:02:40:45 +0200] "GET /app/ HTTP/1.1" 200 38
+127.0.0.1 - admin [06/Feb/2020:02:40:55 +0200] "PUT /manager/text/deploy?path=%2Fapp&update=true HTTP/1.1" 200 60
+::1 - - [06/Feb/2020:02:40:57 +0200] "GET /app/ HTTP/1.1" 200 39

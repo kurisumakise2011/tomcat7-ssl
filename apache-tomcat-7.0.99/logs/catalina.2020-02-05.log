@@ -1,0 +1,932 @@
+Feb 05, 2020 11:39:14 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.99
+Feb 05, 2020 11:39:14 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Dec 11 2019 13:15:59 UTC
+Feb 05, 2020 11:39:14 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.99.0
+Feb 05, 2020 11:39:14 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Feb 05, 2020 11:39:14 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.3.0-26-generic
+Feb 05, 2020 11:39:14 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Feb 05, 2020 11:39:14 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+Feb 05, 2020 11:39:14 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           11.0.6+10-post-Ubuntu-1ubuntu119.10.1
+Feb 05, 2020 11:39:14 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Ubuntu
+Feb 05, 2020 11:39:14 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/kurisu/tomcat/apache-tomcat-7.0.99
+Feb 05, 2020 11:39:14 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/kurisu/tomcat/apache-tomcat-7.0.99
+Feb 05, 2020 11:39:14 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+Feb 05, 2020 11:39:14 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+Feb 05, 2020 11:39:14 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Feb 05, 2020 11:39:14 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/kurisu/tomcat/apache-tomcat-7.0.99/conf/logging.properties
+Feb 05, 2020 11:39:14 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Feb 05, 2020 11:39:14 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Feb 05, 2020 11:39:14 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Feb 05, 2020 11:39:14 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Feb 05, 2020 11:39:14 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/kurisu/tomcat/apache-tomcat-7.0.99
+Feb 05, 2020 11:39:14 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/kurisu/tomcat/apache-tomcat-7.0.99
+Feb 05, 2020 11:39:14 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/kurisu/tomcat/apache-tomcat-7.0.99/temp
+Feb 05, 2020 11:39:14 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+Feb 05, 2020 11:39:14 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Feb 05, 2020 11:39:14 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8443]]
+org.apache.catalina.LifecycleException: The configured protocol [org.apache.coyote.http11.Http11AprProtocol] requires the APR/native library which is not available
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:945)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:826)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:660)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:685)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+
+Feb 05, 2020 11:39:14 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Feb 05, 2020 11:39:14 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 651 ms
+Feb 05, 2020 11:39:14 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Feb 05, 2020 11:39:14 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.99
+Feb 05, 2020 11:39:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/ROOT]
+Feb 05, 2020 11:39:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/ROOT] has finished in [336] ms
+Feb 05, 2020 11:39:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/host-manager]
+Feb 05, 2020 11:39:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/host-manager] has finished in [81] ms
+Feb 05, 2020 11:39:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/docs]
+Feb 05, 2020 11:39:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/docs] has finished in [70] ms
+Feb 05, 2020 11:39:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/manager]
+Feb 05, 2020 11:39:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/manager] has finished in [53] ms
+Feb 05, 2020 11:39:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/examples]
+Feb 05, 2020 11:39:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/examples] has finished in [209] ms
+Feb 05, 2020 11:39:15 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Feb 05, 2020 11:39:15 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Feb 05, 2020 11:39:15 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 901 ms
+Feb 05, 2020 11:39:25 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Feb 05, 2020 11:39:25 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8443"]
+Feb 05, 2020 11:39:25 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Feb 05, 2020 11:39:25 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+Feb 05, 2020 11:39:25 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Feb 05, 2020 11:39:25 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Feb 05, 2020 11:39:25 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Feb 05, 2020 11:39:25 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8443"]
+Feb 05, 2020 11:39:25 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8443"]
+Feb 05, 2020 11:39:25 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Feb 05, 2020 11:43:18 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.99
+Feb 05, 2020 11:43:18 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Dec 11 2019 13:15:59 UTC
+Feb 05, 2020 11:43:18 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.99.0
+Feb 05, 2020 11:43:18 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Feb 05, 2020 11:43:18 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.3.0-26-generic
+Feb 05, 2020 11:43:18 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Feb 05, 2020 11:43:18 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+Feb 05, 2020 11:43:18 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           11.0.6+10-post-Ubuntu-1ubuntu119.10.1
+Feb 05, 2020 11:43:18 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Ubuntu
+Feb 05, 2020 11:43:18 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/kurisu/tomcat/apache-tomcat-7.0.99
+Feb 05, 2020 11:43:18 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/kurisu/tomcat/apache-tomcat-7.0.99
+Feb 05, 2020 11:43:18 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+Feb 05, 2020 11:43:18 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+Feb 05, 2020 11:43:18 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Feb 05, 2020 11:43:18 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/kurisu/tomcat/apache-tomcat-7.0.99/conf/logging.properties
+Feb 05, 2020 11:43:18 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Feb 05, 2020 11:43:18 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Feb 05, 2020 11:43:18 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Feb 05, 2020 11:43:18 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Feb 05, 2020 11:43:18 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/kurisu/tomcat/apache-tomcat-7.0.99
+Feb 05, 2020 11:43:18 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/kurisu/tomcat/apache-tomcat-7.0.99
+Feb 05, 2020 11:43:18 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/kurisu/tomcat/apache-tomcat-7.0.99/temp
+Feb 05, 2020 11:43:18 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+Feb 05, 2020 11:43:18 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Feb 05, 2020 11:43:18 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8443]]
+org.apache.catalina.LifecycleException: The configured protocol [org.apache.coyote.http11.Http11AprProtocol] requires the APR/native library which is not available
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:945)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:826)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:660)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:685)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+
+Feb 05, 2020 11:43:18 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Feb 05, 2020 11:43:18 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 656 ms
+Feb 05, 2020 11:43:18 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Feb 05, 2020 11:43:18 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.99
+Feb 05, 2020 11:43:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/ROOT]
+Feb 05, 2020 11:43:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/ROOT] has finished in [352] ms
+Feb 05, 2020 11:43:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/host-manager]
+Feb 05, 2020 11:43:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/host-manager] has finished in [85] ms
+Feb 05, 2020 11:43:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/docs]
+Feb 05, 2020 11:43:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/docs] has finished in [61] ms
+Feb 05, 2020 11:43:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/manager]
+Feb 05, 2020 11:43:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/manager] has finished in [65] ms
+Feb 05, 2020 11:43:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/examples]
+Feb 05, 2020 11:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.99
+Feb 05, 2020 11:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Dec 11 2019 13:15:59 UTC
+Feb 05, 2020 11:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.99.0
+Feb 05, 2020 11:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Feb 05, 2020 11:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.3.0-26-generic
+Feb 05, 2020 11:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Feb 05, 2020 11:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+Feb 05, 2020 11:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           11.0.6+10-post-Ubuntu-1ubuntu119.10.1
+Feb 05, 2020 11:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Ubuntu
+Feb 05, 2020 11:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/kurisu/tomcat/apache-tomcat-7.0.99
+Feb 05, 2020 11:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/kurisu/tomcat/apache-tomcat-7.0.99
+Feb 05, 2020 11:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+Feb 05, 2020 11:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+Feb 05, 2020 11:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Feb 05, 2020 11:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/kurisu/tomcat/apache-tomcat-7.0.99/conf/logging.properties
+Feb 05, 2020 11:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Feb 05, 2020 11:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Feb 05, 2020 11:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Feb 05, 2020 11:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Feb 05, 2020 11:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/kurisu/tomcat/apache-tomcat-7.0.99
+Feb 05, 2020 11:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/kurisu/tomcat/apache-tomcat-7.0.99
+Feb 05, 2020 11:48:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/kurisu/tomcat/apache-tomcat-7.0.99/temp
+Feb 05, 2020 11:48:52 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+Feb 05, 2020 11:48:52 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Feb 05, 2020 11:48:52 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8443]]
+org.apache.catalina.LifecycleException: The configured protocol [org.apache.coyote.http11.Http11AprProtocol] requires the APR/native library which is not available
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:945)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:826)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:660)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:685)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+
+Feb 05, 2020 11:48:52 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Feb 05, 2020 11:48:52 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 649 ms
+Feb 05, 2020 11:48:52 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Feb 05, 2020 11:48:52 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.99
+Feb 05, 2020 11:48:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/ROOT]
+Feb 05, 2020 11:48:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/ROOT] has finished in [354] ms
+Feb 05, 2020 11:48:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/host-manager]
+Feb 05, 2020 11:48:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/host-manager] has finished in [86] ms
+Feb 05, 2020 11:48:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/docs]
+Feb 05, 2020 11:48:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/docs] has finished in [57] ms
+Feb 05, 2020 11:48:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/manager]
+Feb 05, 2020 11:48:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/manager] has finished in [67] ms
+Feb 05, 2020 11:48:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/examples]
+Feb 05, 2020 11:48:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/examples] has finished in [229] ms
+Feb 05, 2020 11:48:53 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Feb 05, 2020 11:48:53 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Feb 05, 2020 11:48:53 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 932 ms
+Feb 05, 2020 11:49:07 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Feb 05, 2020 11:49:07 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8443"]
+Feb 05, 2020 11:49:07 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Feb 05, 2020 11:49:07 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+Feb 05, 2020 11:49:07 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Feb 05, 2020 11:49:07 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Feb 05, 2020 11:49:07 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Feb 05, 2020 11:49:07 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8443"]
+Feb 05, 2020 11:49:07 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8443"]
+Feb 05, 2020 11:49:07 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Feb 05, 2020 11:49:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.99
+Feb 05, 2020 11:49:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Dec 11 2019 13:15:59 UTC
+Feb 05, 2020 11:49:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.99.0
+Feb 05, 2020 11:49:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Feb 05, 2020 11:49:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.3.0-26-generic
+Feb 05, 2020 11:49:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Feb 05, 2020 11:49:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+Feb 05, 2020 11:49:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           11.0.6+10-post-Ubuntu-1ubuntu119.10.1
+Feb 05, 2020 11:49:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Ubuntu
+Feb 05, 2020 11:49:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/kurisu/tomcat/apache-tomcat-7.0.99
+Feb 05, 2020 11:49:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/kurisu/tomcat/apache-tomcat-7.0.99
+Feb 05, 2020 11:49:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+Feb 05, 2020 11:49:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+Feb 05, 2020 11:49:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Feb 05, 2020 11:49:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/kurisu/tomcat/apache-tomcat-7.0.99/conf/logging.properties
+Feb 05, 2020 11:49:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Feb 05, 2020 11:49:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Feb 05, 2020 11:49:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Feb 05, 2020 11:49:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Feb 05, 2020 11:49:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/kurisu/tomcat/apache-tomcat-7.0.99
+Feb 05, 2020 11:49:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/kurisu/tomcat/apache-tomcat-7.0.99
+Feb 05, 2020 11:49:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/kurisu/tomcat/apache-tomcat-7.0.99/temp
+Feb 05, 2020 11:49:16 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+Feb 05, 2020 11:49:16 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Feb 05, 2020 11:49:16 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8443]]
+org.apache.catalina.LifecycleException: The configured protocol [org.apache.coyote.http11.Http11AprProtocol] requires the APR/native library which is not available
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:945)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:826)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:660)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:685)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+
+Feb 05, 2020 11:49:16 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Feb 05, 2020 11:49:16 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 636 ms
+Feb 05, 2020 11:49:16 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Feb 05, 2020 11:49:16 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.99
+Feb 05, 2020 11:49:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/ROOT]
+Feb 05, 2020 11:49:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/ROOT] has finished in [322] ms
+Feb 05, 2020 11:49:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/host-manager]
+Feb 05, 2020 11:49:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/host-manager] has finished in [75] ms
+Feb 05, 2020 11:49:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/docs]
+Feb 05, 2020 11:49:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/docs] has finished in [55] ms
+Feb 05, 2020 11:49:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/manager]
+Feb 05, 2020 11:49:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/manager] has finished in [64] ms
+Feb 05, 2020 11:49:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/examples]
+Feb 05, 2020 11:49:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/examples] has finished in [230] ms
+Feb 05, 2020 11:49:17 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Feb 05, 2020 11:49:17 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Feb 05, 2020 11:49:17 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 888 ms
+Feb 05, 2020 11:49:23 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Feb 05, 2020 11:49:23 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8443"]
+Feb 05, 2020 11:49:23 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Feb 05, 2020 11:49:23 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+Feb 05, 2020 11:49:23 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Feb 05, 2020 11:49:23 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Feb 05, 2020 11:49:23 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Feb 05, 2020 11:49:23 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8443"]
+Feb 05, 2020 11:49:23 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8443"]
+Feb 05, 2020 11:49:23 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Feb 05, 2020 11:49:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.99
+Feb 05, 2020 11:49:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Dec 11 2019 13:15:59 UTC
+Feb 05, 2020 11:49:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.99.0
+Feb 05, 2020 11:49:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Feb 05, 2020 11:49:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.3.0-26-generic
+Feb 05, 2020 11:49:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Feb 05, 2020 11:49:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+Feb 05, 2020 11:49:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           11.0.6+10-post-Ubuntu-1ubuntu119.10.1
+Feb 05, 2020 11:49:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Ubuntu
+Feb 05, 2020 11:49:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/kurisu/tomcat/apache-tomcat-7.0.99
+Feb 05, 2020 11:49:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/kurisu/tomcat/apache-tomcat-7.0.99
+Feb 05, 2020 11:49:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+Feb 05, 2020 11:49:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+Feb 05, 2020 11:49:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Feb 05, 2020 11:49:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/kurisu/tomcat/apache-tomcat-7.0.99/conf/logging.properties
+Feb 05, 2020 11:49:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Feb 05, 2020 11:49:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Feb 05, 2020 11:49:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Feb 05, 2020 11:49:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Feb 05, 2020 11:49:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/kurisu/tomcat/apache-tomcat-7.0.99
+Feb 05, 2020 11:49:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/kurisu/tomcat/apache-tomcat-7.0.99
+Feb 05, 2020 11:49:26 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/kurisu/tomcat/apache-tomcat-7.0.99/temp
+Feb 05, 2020 11:49:26 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+Feb 05, 2020 11:49:26 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Feb 05, 2020 11:49:26 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8443]]
+org.apache.catalina.LifecycleException: The configured protocol [org.apache.coyote.http11.Http11AprProtocol] requires the APR/native library which is not available
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:945)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:826)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:660)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:685)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+
+Feb 05, 2020 11:49:26 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Feb 05, 2020 11:49:26 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 662 ms
+Feb 05, 2020 11:49:26 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Feb 05, 2020 11:49:26 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.99
+Feb 05, 2020 11:49:26 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/ROOT]
+Feb 05, 2020 11:49:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/ROOT] has finished in [375] ms
+Feb 05, 2020 11:49:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/host-manager]
+Feb 05, 2020 11:49:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/host-manager] has finished in [72] ms
+Feb 05, 2020 11:49:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/docs]
+Feb 05, 2020 11:49:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/docs] has finished in [52] ms
+Feb 05, 2020 11:49:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/manager]
+Feb 05, 2020 11:49:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/manager] has finished in [77] ms
+Feb 05, 2020 11:49:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/examples]
+Feb 05, 2020 11:49:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/examples] has finished in [226] ms
+Feb 05, 2020 11:49:27 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Feb 05, 2020 11:49:27 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Feb 05, 2020 11:49:27 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 927 ms
+Feb 05, 2020 11:50:25 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Feb 05, 2020 11:50:26 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8443"]
+Feb 05, 2020 11:50:26 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Feb 05, 2020 11:50:26 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+Feb 05, 2020 11:50:26 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Feb 05, 2020 11:50:26 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Feb 05, 2020 11:50:26 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Feb 05, 2020 11:50:26 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8443"]
+Feb 05, 2020 11:50:26 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8443"]
+Feb 05, 2020 11:50:26 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Feb 05, 2020 11:50:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.99
+Feb 05, 2020 11:50:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Dec 11 2019 13:15:59 UTC
+Feb 05, 2020 11:50:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.99.0
+Feb 05, 2020 11:50:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Feb 05, 2020 11:50:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.3.0-26-generic
+Feb 05, 2020 11:50:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Feb 05, 2020 11:50:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+Feb 05, 2020 11:50:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           11.0.6+10-post-Ubuntu-1ubuntu119.10.1
+Feb 05, 2020 11:50:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Ubuntu
+Feb 05, 2020 11:50:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/kurisu/tomcat/apache-tomcat-7.0.99
+Feb 05, 2020 11:50:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/kurisu/tomcat/apache-tomcat-7.0.99
+Feb 05, 2020 11:50:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+Feb 05, 2020 11:50:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+Feb 05, 2020 11:50:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Feb 05, 2020 11:50:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/kurisu/tomcat/apache-tomcat-7.0.99/conf/logging.properties
+Feb 05, 2020 11:50:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Feb 05, 2020 11:50:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Feb 05, 2020 11:50:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Feb 05, 2020 11:50:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Feb 05, 2020 11:50:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/kurisu/tomcat/apache-tomcat-7.0.99
+Feb 05, 2020 11:50:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/kurisu/tomcat/apache-tomcat-7.0.99
+Feb 05, 2020 11:50:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/kurisu/tomcat/apache-tomcat-7.0.99/temp
+Feb 05, 2020 11:50:57 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+Feb 05, 2020 11:50:57 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Feb 05, 2020 11:50:57 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8443]]
+org.apache.catalina.LifecycleException: The configured protocol [org.apache.coyote.http11.Http11AprProtocol] requires the APR/native library which is not available
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:945)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:826)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:660)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:685)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+
+Feb 05, 2020 11:50:57 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Feb 05, 2020 11:50:57 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 650 ms
+Feb 05, 2020 11:50:57 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Feb 05, 2020 11:50:57 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.99
+Feb 05, 2020 11:50:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/ROOT]
+Feb 05, 2020 11:50:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/ROOT] has finished in [531] ms
+Feb 05, 2020 11:50:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/host-manager]
+Feb 05, 2020 11:50:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/host-manager] has finished in [129] ms
+Feb 05, 2020 11:50:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/docs]
+Feb 05, 2020 11:50:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/docs] has finished in [61] ms
+Feb 05, 2020 11:50:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/manager]
+Feb 05, 2020 11:50:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/manager] has finished in [53] ms
+Feb 05, 2020 11:50:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/examples]
+Feb 05, 2020 11:50:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/examples] has finished in [215] ms
+Feb 05, 2020 11:50:58 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Feb 05, 2020 11:50:58 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Feb 05, 2020 11:50:58 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1125 ms
+Feb 05, 2020 11:50:59 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Feb 05, 2020 11:50:59 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8443"]
+Feb 05, 2020 11:50:59 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Feb 05, 2020 11:50:59 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+Feb 05, 2020 11:50:59 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Feb 05, 2020 11:50:59 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Feb 05, 2020 11:50:59 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Feb 05, 2020 11:50:59 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8443"]
+Feb 05, 2020 11:50:59 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8443"]
+Feb 05, 2020 11:50:59 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Feb 05, 2020 11:52:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.99
+Feb 05, 2020 11:52:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Dec 11 2019 13:15:59 UTC
+Feb 05, 2020 11:52:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.99.0
+Feb 05, 2020 11:52:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Feb 05, 2020 11:52:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.3.0-26-generic
+Feb 05, 2020 11:52:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Feb 05, 2020 11:52:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+Feb 05, 2020 11:52:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           11.0.6+10-post-Ubuntu-1ubuntu119.10.1
+Feb 05, 2020 11:52:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Ubuntu
+Feb 05, 2020 11:52:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/kurisu/tomcat/apache-tomcat-7.0.99
+Feb 05, 2020 11:52:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/kurisu/tomcat/apache-tomcat-7.0.99
+Feb 05, 2020 11:52:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+Feb 05, 2020 11:52:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+Feb 05, 2020 11:52:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Feb 05, 2020 11:52:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/kurisu/tomcat/apache-tomcat-7.0.99/conf/logging.properties
+Feb 05, 2020 11:52:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Feb 05, 2020 11:52:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Feb 05, 2020 11:52:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Feb 05, 2020 11:52:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Feb 05, 2020 11:52:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/kurisu/tomcat/apache-tomcat-7.0.99
+Feb 05, 2020 11:52:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/kurisu/tomcat/apache-tomcat-7.0.99
+Feb 05, 2020 11:52:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/kurisu/tomcat/apache-tomcat-7.0.99/temp
+Feb 05, 2020 11:52:00 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+Feb 05, 2020 11:52:00 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Feb 05, 2020 11:52:00 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8443]]
+org.apache.catalina.LifecycleException: The configured protocol [org.apache.coyote.http11.Http11AprProtocol] requires the APR/native library which is not available
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:945)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:826)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:660)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:685)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+
+Feb 05, 2020 11:52:00 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Feb 05, 2020 11:52:00 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 669 ms
+Feb 05, 2020 11:52:00 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Feb 05, 2020 11:52:00 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.99
+Feb 05, 2020 11:52:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/ROOT]
+Feb 05, 2020 11:52:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/ROOT] has finished in [319] ms
+Feb 05, 2020 11:52:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/host-manager]
+Feb 05, 2020 11:52:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/host-manager] has finished in [83] ms
+Feb 05, 2020 11:52:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/docs]
+Feb 05, 2020 11:52:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/docs] has finished in [64] ms
+Feb 05, 2020 11:52:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/manager]
+Feb 05, 2020 11:52:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/manager] has finished in [54] ms
+Feb 05, 2020 11:52:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/examples]
+Feb 05, 2020 11:52:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/examples] has finished in [216] ms
+Feb 05, 2020 11:52:01 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Feb 05, 2020 11:52:01 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Feb 05, 2020 11:52:01 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 869 ms
+Feb 05, 2020 11:52:21 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Feb 05, 2020 11:52:21 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8443"]
+Feb 05, 2020 11:52:21 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Feb 05, 2020 11:52:21 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+Feb 05, 2020 11:52:21 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Feb 05, 2020 11:52:21 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Feb 05, 2020 11:52:21 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Feb 05, 2020 11:52:21 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8443"]
+Feb 05, 2020 11:52:21 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8443"]
+Feb 05, 2020 11:52:21 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Feb 05, 2020 11:52:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.99
+Feb 05, 2020 11:52:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Dec 11 2019 13:15:59 UTC
+Feb 05, 2020 11:52:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.99.0
+Feb 05, 2020 11:52:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Feb 05, 2020 11:52:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.3.0-26-generic
+Feb 05, 2020 11:52:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Feb 05, 2020 11:52:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+Feb 05, 2020 11:52:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           11.0.6+10-post-Ubuntu-1ubuntu119.10.1
+Feb 05, 2020 11:52:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Ubuntu
+Feb 05, 2020 11:52:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/kurisu/tomcat/apache-tomcat-7.0.99
+Feb 05, 2020 11:52:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/kurisu/tomcat/apache-tomcat-7.0.99
+Feb 05, 2020 11:52:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+Feb 05, 2020 11:52:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+Feb 05, 2020 11:52:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Feb 05, 2020 11:52:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/kurisu/tomcat/apache-tomcat-7.0.99/conf/logging.properties
+Feb 05, 2020 11:52:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Feb 05, 2020 11:52:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Feb 05, 2020 11:52:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Feb 05, 2020 11:52:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Feb 05, 2020 11:52:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/kurisu/tomcat/apache-tomcat-7.0.99
+Feb 05, 2020 11:52:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/kurisu/tomcat/apache-tomcat-7.0.99
+Feb 05, 2020 11:52:52 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/kurisu/tomcat/apache-tomcat-7.0.99/temp
+Feb 05, 2020 11:52:52 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+Feb 05, 2020 11:52:52 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Feb 05, 2020 11:52:52 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8443]]
+org.apache.catalina.LifecycleException: The configured protocol [org.apache.coyote.http11.Http11AprProtocol] requires the APR/native library which is not available
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:945)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:826)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:660)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:685)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+
+Feb 05, 2020 11:52:52 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Feb 05, 2020 11:52:52 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 617 ms
+Feb 05, 2020 11:52:52 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Feb 05, 2020 11:52:52 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.99
+Feb 05, 2020 11:52:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/ROOT]
+Feb 05, 2020 11:52:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/ROOT] has finished in [357] ms
+Feb 05, 2020 11:52:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/host-manager]
+Feb 05, 2020 11:52:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/host-manager] has finished in [89] ms
+Feb 05, 2020 11:52:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/docs]
+Feb 05, 2020 11:52:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/docs] has finished in [63] ms
+Feb 05, 2020 11:52:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/manager]
+Feb 05, 2020 11:52:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/manager] has finished in [61] ms
+Feb 05, 2020 11:52:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/examples]
+Feb 05, 2020 11:52:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/kurisu/tomcat/apache-tomcat-7.0.99/webapps/examples] has finished in [246] ms
+Feb 05, 2020 11:52:53 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Feb 05, 2020 11:52:53 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Feb 05, 2020 11:52:53 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 944 ms
+Feb 05, 2020 11:55:02 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Feb 05, 2020 11:55:02 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8443"]
+Feb 05, 2020 11:55:02 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Feb 05, 2020 11:55:02 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+Feb 05, 2020 11:55:02 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Feb 05, 2020 11:55:02 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Feb 05, 2020 11:55:02 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Feb 05, 2020 11:55:02 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8443"]
+Feb 05, 2020 11:55:02 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8443"]
+Feb 05, 2020 11:55:02 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
